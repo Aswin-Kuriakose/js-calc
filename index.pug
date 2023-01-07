@@ -1,0 +1,12 @@
+- var sign = ["+","-","/","x"]
+- var x = 10
+body 
+    .calc-body 
+        input#input-el(type="text")
+        .calc-bttn
+            ul.bttns
+             each key in sign 
+              li.bttn key  
+            -for (let i=0; i < x; i++)
+                li.bttn #{i}
+            
