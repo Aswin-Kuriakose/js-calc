@@ -39,7 +39,7 @@ body {
     grid-template-rows: repeat(5 , 18%);
     
 }
-.buttons,.operants,#equal-bttn {
+.buttons,#equal-bttn,#clear-bttn {
     background-color: #fff;
     padding: 15px; 
     border: 1px solid #ccc;
@@ -48,7 +48,7 @@ body {
 button {
 font-size: 40px;
 }
-.buttons:hover,.operants:hover {
+.buttons:hover, #clear-bttn:hover{
     background-color: #000;
     color: #fff;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
@@ -61,7 +61,7 @@ font-size: 40px;
     color: #fff;
     font-size: 50px;
 }
-.buttons:active,.operants:active ,#equal-bttn:active{
+.buttons:active,#clear-bttn:active ,#equal-bttn:active{
     position: relative;
     top: 1px;
 }
